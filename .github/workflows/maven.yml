@@ -25,4 +25,4 @@ jobs:
       - name: Make mvn executable
         run: chmod +x ./mvnw
       - name: Build with Gradle
-        run: ./mvnw clean package
+        run: ./mvnw clean compile package
